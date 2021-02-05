@@ -1,0 +1,35 @@
+<section class="section-services" id="skills">
+    <div class="container">
+        <div class="services__title">
+            <h3 class="view-chapter">
+                Skills
+            </h3>
+        </div>
+        <div class="services__content">
+            <div class="content__tag">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 52 55">
+                    <path d="M29.6 27.5L.5 14.9c-.3-.2-.5-.5-.5-.9V.9C0 .2.6-.2 1.2.1l50.3 21.8c.3.1.5.5.5.8v9.5c0 .4-.2.7-.5.8L1.2 54.9c-.6.3-1.2-.2-1.2-.8V41c0-.4.2-.7.5-.8l29.1-12.7z" fill="#fff"></path>
+                </svg>
+            </div>
+            <div class="content__wrapper" id="sectionServices">
+                <h4 class="content__title">{{site.data.skills.content__title}}</h4>
+                <div class="content__text">
+                    <p>{{site.data.skills.content__text}}</p>
+                </div>
+            </div>
+        </div>
+        <ul class="services__list">
+            {% for item in site.data.skills.list %}
+            <li class="services__category">
+                <h5 class="category__title">{{item.heading}}</h5>
+                <ul class="category__list">
+                    {% for skill-item in item.skills %}
+                    <li class="category__service">{{skill-item}}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+            
+        </ul>
+    </div>
+</section>

@@ -1,0 +1,38 @@
+content__title: developers,<br>developers,<br>developers...
+content__text: People don't care about what you say, they care about what you build. - Mark Zuckerberg
+list:
+  - heading: Front-end<br>Development
+    skills:
+    - HTML
+    - CSS
+    - JS
+    - VueJS
+  - heading: Tools
+    skills:
+    - npm
+    - yarn
+    - composer
+    - docker
+    - git
+    - jest
+  - heading: Languages
+    skills:
+    - Python
+    - C
+    - C++
+    - Javascript
+    - PHP
+    - Matlab
+  - heading: OS 
+    skills:
+    - Windows
+    - Ubuntu
+    - Manjaro      
+  - heading: Back-end<br>Development
+    skills:
+      - API
+      - Payment Gateways
+      - PHP
+      - Laravel
+      - Express
+      - Nodejs

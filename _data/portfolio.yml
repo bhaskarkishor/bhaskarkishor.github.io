@@ -1,0 +1,21 @@
+- img:
+  title: Campus Ambassador Wissenaire Website
+  link: https://wissenaire-ca20-sample.herokuapp.com/
+  tags:
+    - PHP
+    - Laravel
+    - MySQl
+    - HTML/CSS
+  text: • Developed website to advertise the Campus Ambassador program of Wissenaire and register participants for it • Implemented 5+ features using PHP and Laravel • Recorded about 40% increase in member registration in the programme compared to the previous year
+  hash: ca-wissenaire
+- img:
+  title: Web based Notes app
+  link: https://notes-redefined.web.app/
+  tags:
+    - PWA
+    - VUEJS
+    - JAMstack
+    - Firebase
+  text: • Created VueJS based Web app for taking notes with offline support(PWA) • Stored and processed data locally in browser using IndexedDB
+  hash: pwa-notes
+

@@ -1,0 +1,10 @@
+- url: 'home'
+  text: Home
+- url: 'about'
+  text: About Me
+- url: 'skills'
+  text: Skills
+- url: 'portfolio'
+  text: Portfolio
+- url: 'contact'
+  text: Contact

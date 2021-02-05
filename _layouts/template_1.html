@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        <title>{{site.author}} | {{ site.title }}</title>
+        
+        {% include layout/seo.html %}
+        {% include layout/css.html %}
+        
+    </head>
+    <body>
+        <div class="doc">
+            <div class="doc-main">
+                <!-- background container -->
+                  <div class="doc-background">
+                      <div class="background__header">
+                          <div class="header__line">
+                              <div class="line__line"></div>
+                          </div>
+                          <div class="header__line">
+                              <div class="line__line"></div>
+                          </div>
+                          <div class="header__corner servicesCorner">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1380 790.5">
+                                  <path clip-rule="evenodd" d="M0 790.5h1380V0L0 557.6z" fill="#fff" fill-rule="evenodd"></path>
+                              </svg>
+                          </div>
+                      </div>
+                      <div class="background__services">
+                          <div class="services__line">
+                              <div class="line__line servicesLine"></div>
+                          </div>
+                          <div class="services__line">
+                              <div class="line__line servicesLine"></div>
+                          </div>
+                          <div class="services__line">
+                              <div class="line__line servicesLine"></div>
+                          </div>
+                          <div class="services__line">
+                              <div class="line__line servicesLine"></div>
+                          </div>
+                          <div class="services__line">
+                              <div class="line__line servicesLine"></div>
+                          </div>
+                          <div class="services__line">
+                              <div class="line__line servicesLine"></div>
+                          </div>
+                          <div class="services__line">
+                              <div class="line__line servicesLine"></div>
+                          </div>
+                      </div>
+                      <div class="background__portfolio">
+                          <div class="container portfolio__container">
+                              <div class="portfolio__line">
+                                  <div class="line__line portfolioLine"></div>
+                              </div>
+                              <div class="portfolio__line">
+                                  <div class="line__line portfolioLine"></div>
+                              </div>
+                              <div class="portfolio__line">
+                                  <div class="line__line portfolioLine"></div>
+                              </div>
+                              <div class="portfolio__line">
+                                  <div class="line__line portfolioLine"></div>
+                              </div>
+                              <div class="portfolio__line">
+                                  <div class="line__line portfolioLine"></div>
+                              </div>
+                              <div class="portfolio__line">
+                                  <div class="line__line portfolioLine"></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="doc-background-scroll">
+                      <div class="container">
+                          <div class="background-scroll__contact" id="sectionContactCopy">
+                              <div class="contact__bg">
+                                  <div class="contact__line">
+                                      <div class="contact__corner">
+                                          <div class="contact__corner-shape">
+                                              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 225.9 92.8">
+                                                  <path clip-rule="evenodd" d="M0 0v92.8h225.9z" fill="#fe0" fill-rule="evenodd"></path>
+                                              </svg>
+                                          </div>
+                                      </div>
+                                      <div class="contact__shape">
+                                          <div class="contact__shape-shape">
+                                              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 828.1 688.1">
+                                                  <path clip-rule="evenodd" d="M0 0v158.2l80.9-17.8L59.2 252c-1 4.9 1 9.9 5 12.6L678.1 686c7 4.8 16.6.6 18.2-8.1l34-175c1-4.9-1-9.9-5-12.6L370.1 246.5l420.8-93c4.7-1 8.4-4.9 9.4-9.9L828.1 0H0z" fill="#1e1e3c" fill-rule="evenodd"></path>
+                                              </svg>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- grid container -->
+                  <div class="doc-grid">
+                      <div class="grid__wrapper container">
+                          <div class="grid__line"></div>
+                          <div class="grid__line"></div>
+                          <div class="grid__line"></div>
+                          <div class="grid__line"></div>
+                          <div class="grid__line"></div>
+                      </div>
+                  </div>
+                {{content}}
+            </div>
+        </div>
+        <!-- nav container -->
+        {% include layout/nav.html %}
+        <!-- mask container -->
+        <div class="doc-mask">
+            <div class="mask__wrapper">
+                <div class="mask__left"></div>
+                <div class="mask__right"></div>
+            </div>
+        </div>
+        {% include layout/javascript.html %}
+    </body>
+</html>

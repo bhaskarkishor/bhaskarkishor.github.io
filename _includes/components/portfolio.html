@@ -1,0 +1,104 @@
+<section class="section-portfolio" id="sectionPortfolio">
+    <div class="portfolio__bg">
+        <div class="container bg__container">
+            <div class="bg__title">
+                <h3 class="view-chapter">
+                    Projects
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__wrapper" id="portfolio">
+        <div class="portfolio__diagonal">
+            <div class="container">
+                <div class="diagonal__wrapper">
+                    <div class="diagonal__diagonal" style="background-color: #ff2466" id="portfolioDiagonal"></div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio__controls">
+            <div class="container controls__container">
+                <div class="controls__wrapper">
+                    <div class="controls__prev" id="portfolioPrev">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 52 55">
+                            <path d="M29.6 27.5L.5 14.9c-.3-.2-.5-.5-.5-.9V.9C0 .2.6-.2 1.2.1l50.3 21.8c.3.1.5.5.5.8v9.5c0 .4-.2.7-.5.8L1.2 54.9c-.6.3-1.2-.2-1.2-.8V41c0-.4.2-.7.5-.8l29.1-12.7z" fill="#fff"></path>
+                        </svg>
+                    </div>
+                    <div class="controls__next" id="portfolioNext">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 52 55">
+                            <path d="M29.6 27.5L.5 14.9c-.3-.2-.5-.5-.5-.9V.9C0 .2.6-.2 1.2.1l50.3 21.8c.3.1.5.5.5.8v9.5c0 .4-.2.7-.5.8L1.2 54.9c-.6.3-1.2-.2-1.2-.8V41c0-.4.2-.7.5-.8l29.1-12.7z" fill="#fff"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio__slides" id="portfolioSlides">
+            <div class="portfolio__slides-wrapper swiper-wrapper">
+                {% for item in site.data.portfolio %}
+                <div class="portfolio__slide swiper-slide" data-hash="{{item.hash}}">
+                    <div class="view-case" data-color="#ff2466">
+                        <div class="container case__container">
+                            <div class="case__image" style="background-image: url( '{{item.img}}' )"></div>
+                            <div class="case__content">
+                                <h4 class="case__title">{{item.title}},</h4>
+                                <div class="case__tags">
+                                    {% for tag in item.tags %}
+                                        {{tag}}
+                                    {% endfor %}
+                                </div>
+                                {% if item.link == %}
+                                <div class="case__client"><a href="{{item.link}}" target="_blank">click here</a></div>
+                                {% endif %}
+                                <div class="case__text">
+                                    {{item.text}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+           </div>
+        </div>
+    </div>
+    <!-- <div class="portfolio__clients">
+        <div class="container clients__container">
+            <div class="clients__content">
+                <h4 class="clients__title">
+                    Clients
+                </h4>
+                <p class="clients__text">
+                    client description
+                </p>
+            </div>
+            <ul class="clients__list">
+                <li class="clients__client">
+                    <div class="client__logo" title="RAAK" style="background-image:url( 'https://tabs-spaces.nl/app/themes/tabsspaces/dist/png/raak.png' );"></div>
+                </li>
+                <li class="clients__client">
+                    <div class="client__logo" title="Dailymilk" style="background-image:url( 'https://tabs-spaces.nl/app/themes/tabsspaces/dist/png/dailymilk.png' );"></div>
+                </li>
+                <li class="clients__client">
+                    <div class="client__logo" title="Total Design" style="background-image:url( 'https://tabs-spaces.nl/app/themes/tabsspaces/dist/png/totaldesign.png' );"></div>
+                </li>
+                <li class="clients__client">
+                    <div class="client__logo" title="Fabrique" style="background-image:url( 'https://tabs-spaces.nl/app/themes/tabsspaces/dist/png/fabrique.png' );"></div>
+                </li>
+                <li class="clients__client">
+                    <div class="client__logo" title="FPW" style="background-image:url( 'https://tabs-spaces.nl/app/themes/tabsspaces/dist/png/fpw.png' );"></div>
+                </li>
+                <li class="clients__client">
+                    <div class="client__logo" title="Netvlies" style="background-image:url( 'https://tabs-spaces.nl/app/themes/tabsspaces/dist/png/netvlies.png' );"></div>
+                </li>
+                <li class="clients__client">
+                    <div class="client__logo" title="Wardtaal" style="background-image:url( 'https://tabs-spaces.nl/app/themes/tabsspaces/dist/png/wardtaal.png' );"></div>
+                </li>
+                <li class="clients__client">
+                    <div class="client__logo" title="Twnkls" style="background-image:url( 'https://tabs-spaces.nl/app/themes/tabsspaces/dist/png/twnkls.png' );"></div>
+                </li>
+                <li class="clients__client">
+                    <div class="client__logo" title="MetrixLab" style="background-image:url( 'https://tabs-spaces.nl/app/themes/tabsspaces/dist/png/metrixlab.png' );"></div>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+</section>
