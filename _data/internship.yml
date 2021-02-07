@@ -1,0 +1,23 @@
+- img: 
+  title: Web Developer Intern
+  text: • Developed Web admin panel for management of orders and stocks • Formulated the backend structure in PHP and using the Laravel framework • Collaborated within a team of 3 members to develop an android app for user interaction • Aided the offline business to shift on the online platform leading to a boost in sales
+  tags:
+    - PHP
+    - Laravel
+    - MySQl
+    - HTML/CSS
+  link: 
+  org: Dawipayana tech, Bangalore 
+- img:
+  title: Web Developer Intern
+  link: 
+  tags:
+    - PWA
+    - VUEJS
+    - JAMstack
+    - Heroku
+    - Express
+    - MongoDB
+  text: • Carried out the development of a website and Displayed information about 5+ pet services available in the region • Coordinated with team of 3 members and Engineered a data storage format in MongoDB • Accomplished fast and responsive performance using NuxtJs as PWA website • Implemented multilingual support for 2+ language extending wider audience support using i18n module
+  org: Oniria Pets, Warsaw 
+

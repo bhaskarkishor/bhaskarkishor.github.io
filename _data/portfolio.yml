@@ -1,4 +1,4 @@
-- img:
+- img: /images/ca20.jpg
   title: Campus Ambassador Wissenaire Website
   link: https://wissenaire-ca20-sample.herokuapp.com/
   tags:
@@ -8,7 +8,7 @@
     - HTML/CSS
   text: • Developed website to advertise the Campus Ambassador program of Wissenaire and register participants for it • Implemented 5+ features using PHP and Laravel • Recorded about 40% increase in member registration in the programme compared to the previous year
   hash: ca-wissenaire
-- img:
+- img: images/theraindrop.jpg
   title: Web based Notes app
   link: https://notes-redefined.web.app/
   tags:
@@ -18,4 +18,13 @@
     - Firebase
   text: • Created VueJS based Web app for taking notes with offline support(PWA) • Stored and processed data locally in browser using IndexedDB
   hash: pwa-notes
-
+- img: images/wanime.jpg
+  title: Anime Streaming site
+  link: https://wanime.me
+  tags:
+    - PWA
+    - VUEJS
+    - Nuxt
+    - Expressjs
+  text: • Created a Anime streaming site that would scrap the links from internet of hosted videos 
+  hash: wanime

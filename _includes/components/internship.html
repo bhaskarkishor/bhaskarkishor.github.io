@@ -1,0 +1,27 @@
+<section class="section-contact" id="internship">
+    <div class="contact__wrapper" id="">
+        <div class="container">
+            
+            <section class="section-about">
+                <div class="about__container container">
+                    <div class="about__title">
+                        <h3 class="view-chapter">
+                            Internship <Menu></Menu>
+                        </h3>
+                    </div>
+                    {% for item in site.data.internship %}
+                    <div class="about__subtitle">
+                        <h4>{{item.title}}</h4>
+                        <span style="z-index:10">{{item.org}}</span>
+                    </div>
+                    <div class="about__text">
+                        <p>{{item.text}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+            
+        </div>
+    </div>
+</section>
+

@@ -5,6 +5,8 @@
 - url: 'skills'
   text: Skills
 - url: 'portfolio'
-  text: Portfolio
+  text: Projects
+- url: 'internship'
+  text: Internship
 - url: 'contact'
   text: Contact
