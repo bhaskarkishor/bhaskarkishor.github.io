@@ -1,7 +1,7 @@
 name: Portfolio
 author: Bhaskar Kishor
 title: Portfolio 
-
+description: This is my personal portfolio website that I created to showcase my skills and expereince in my meantime.
 livereload: true
 
 plugins:
