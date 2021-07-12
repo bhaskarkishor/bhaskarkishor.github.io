@@ -10,7 +10,7 @@
   hash: ca-wissenaire
 - img: images/theraindrop.jpg
   title: Web based Notes app
-  link: https://notes-redefined.web.app/
+  link: https://github.com/bhaskarkishor/notes-redefined
   tags:
     - PWA
     - VUEJS
@@ -20,7 +20,7 @@
   hash: pwa-notes
 - img: images/wanime.jpg
   title: Anime Streaming site
-  link: https://wanime.me
+  link: https://wanime.vercel.app
   tags:
     - PWA
     - VUEJS
@@ -28,3 +28,11 @@
     - Expressjs
   text: • Created a Anime streaming site that would scrap the links from internet of hosted videos 
   hash: wanime
+- img: images/wapolls.jpeg
+  title: Polls for WhatsApp
+  tags:
+    - VueJS
+    - Responsive Design
+  link: https://github.com/bhaskarkishor/whatsapppoll
+  text: Create, Share and collect responses in whatsapp groups with polls without signup or any hassle. Completely anonymous and Hassle free.jpg
+  hash: wapolls
